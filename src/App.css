@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+body{
+   background-color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.block {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App{
+  display: flex;
+  justify-content: space-around;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 50%;
+ background-color: white;
+padding: 20px;
+
 }
 
-.App-link {
-  color: #61dafb;
+
+
+img{
+  width: 500px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.center{
+text-align: center;
+}
+
+.cartIcon{
+  width: 70px;
+}
+
+.categoryButton:hover {
+
+  background-color: #fdeb6b;
+  
+
+}
+
+.categoryButtonSelected{
+
+  background-color: green;
+ 
+}
+
+.categoryButton {
+
+  cursor: pointer;
+  margin: 5px;
+  padding: 5px;
+}
+
+.icon{
+  width: 20px;
+}
+
+p, h1, h2, button {
+
+  font-family: 'Poppins', sans-serif;
+
+  font-size: 20px;
+
+}
+
+button {
+
+  background-color: #fdeb6b;
+
+  margin-top: 40px;
+
+  margin-left: 10px;
+
 }
